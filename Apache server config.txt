@@ -19,6 +19,11 @@ Include conf/extra/httpd-vhosts.conf
 ================================
 3. Configure Virtual Hosts:
 ================================
+
+Visit this path: C:\Windows\System32\drivers\etc
+
+Next add the local virtual site you want to host:
+
 <VirtualHost *:80>
     ServerName genealogy.local
     DocumentRoot "C:/wamp64/www/Genealogy/public"
