@@ -1,5 +1,7 @@
 Steps to configure the Apache server
 
+NOTE: This configuration is for the Wampserver
+
 NOTE: OPEN the cmd as an administrator
 
 
@@ -20,7 +22,7 @@ Include conf/extra/httpd-vhosts.conf
 3. Configure Virtual Hosts:
 ================================
 
-Visit this path: C:\Windows\System32\drivers\etc
+Visit this path: C:\wamp64\bin\apache\apache2.4.65\conf\extra
 
 Next add the local virtual site you want to host:
 
